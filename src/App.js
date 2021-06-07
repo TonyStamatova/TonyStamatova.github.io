@@ -16,6 +16,16 @@ function App() {
         <hr />
         <h2 className="slogan">Software Developer</h2>
       </header>
+      <main></main>
+      <footer id="footer">
+            <div class="footer-content">
+                <a href="#" class="fa fa-phone"></a>
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-envelope"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-skype"></a>
+            </div>
+      </footer>
     </div>
   );
 }

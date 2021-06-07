@@ -44,10 +44,6 @@
 #nav ul a:hover,#nav ul a.active{
 	color: var(--light);
 	text-decoration: none;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
 }
 
 .logo {
@@ -70,4 +66,40 @@ h2.slogan{
 	line-height: 32px;
 	color: var(--light);
 	padding: 25px 0 30px 0;
+}
+
+#footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: var(--dark);
+}
+
+.footer-content {
+	display: flex;
+	justify-content: center;
+}
+
+.fa {
+	padding: 12px;
+	font-size: 35px !important;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	color: var(--medium);
+}
+
+.fa:hover {
+	color: var(--light);
+}
+
+hr {
+	border: 0;
+	background-color:var(--light); 
+	width:100px; 
+	height:2px; 
+	display:flex; 
+	justify-content:center;
 }
