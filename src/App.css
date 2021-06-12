@@ -64,9 +64,9 @@
 	justify-content: center;
 }
 
-.fa {
+.footer-content .fa {
 	padding: 12px;
-	font-size: 35px !important;
+	font-size: 35px;
 	width: 50px;
 	text-align: center;
 	text-decoration: none;
