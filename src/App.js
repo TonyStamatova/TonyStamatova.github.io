@@ -16,7 +16,7 @@ function App() {
       <header className="App-header">
         <nav id="nav">
             <ul>
-                <li><NavLink to="/">About</NavLink></li>
+                <li><NavLink exact to="/">About</NavLink></li>
                 {/* <li><NavLink to="/projects">Projects</NavLink></li>
                 <li><NavLink to="/interests">Interests</NavLink></li> */}
                 <li><NavLink to="/contactMe">Contact Me</NavLink></li>
