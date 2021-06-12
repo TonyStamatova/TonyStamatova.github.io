@@ -6,3 +6,13 @@
 p {
     padding: 5px;
 }
+
+a {
+    color: var(--dark);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: var(--light);
+    font-weight: normal;
+}
