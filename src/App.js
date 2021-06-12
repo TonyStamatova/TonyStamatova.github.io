@@ -8,6 +8,7 @@ import About from "./components/About.jsx";
 // import Projects from "./components/Projects.jsx";
 // import Interests from "./components/Interests.jsx";
 import ContactMe from "./components/ContactMe.jsx";
+import Logo from "./components/Logo.jsx";
 
 function App() {
   return (
@@ -22,9 +23,7 @@ function App() {
                 <li><NavLink to="/contactMe">Contact Me</NavLink></li>
             </ul>
         </nav>
-        <h1 className="logo">Antoniya Stamatova</h1>
-        <hr />
-        <h2 className="slogan">Software Developer</h2>
+        <Route exact path="/" component={Logo}/>
       </header>
       <div className="content">
         <Route exact path="/" component={About}/>
