@@ -68,6 +68,11 @@ h2.slogan{
 	padding: 25px 0 30px 0;
 }
 
+.content {
+	background-color: inherit;
+	padding: 20px;
+}
+
 #footer {
 	position: fixed;
 	left: 0;
