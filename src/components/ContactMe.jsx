@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ContactDetail from "./ContactDetail";
 import "./ContactMe.css";
 
 class ContactMe extends Component {
@@ -6,12 +7,12 @@ class ContactMe extends Component {
     return (
       <div className="contact-me">
         <ul>
-          <li><span className="fa fa-phone"></span><text className="details">+359 895 669 349</text></li>
-          <li><span className="fa fa-envelope"></span><text className="details">a.stamatova@abv.bg</text></li>
-          <li><span className="fa fa-github"></span><a href="https://github.com/TonyStamatova" className="details">TonyStamatova</a></li>
-          <li><span className="fa fa-linkedin"></span><a href="https://www.linkedin.com/in/antonia-stamatova-99a163155/" className="details">LinkedIn Profile</a></li>
-          <li><span className="fa fa-facebook"></span><a href="https://www.facebook.com/antonia.stamatova" className="details">Antoniya Stamatova</a></li>
-          <li><span className="fa fa-skype"></span><text className="details">Antoniya Stamatova</text></li>
+          <li><ContactDetail type="phone" details="+359 895 669 349" /></li>
+          <li><ContactDetail type="envelope" details="a.stamatova@abv.bg" /></li>
+          <li><ContactDetail type="github" link="https://github.com/TonyStamatova" details="TonyStamatova" /></li>
+          <li><ContactDetail type="linkedin" link="https://www.linkedin.com/in/antonia-stamatova-99a163155/" details="LinkedIn Profile" /></li>
+          <li><ContactDetail type="facebook" link="https://www.facebook.com/antonia.stamatova" details="Message me" /></li>
+          <li><ContactDetail type="skype" details="Antoniya Stamatova" /></li>
         </ul>
       </div>
     );
