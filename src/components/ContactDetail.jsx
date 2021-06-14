@@ -1,15 +1,18 @@
 import React, { Component } from "react";
 import DetailsElement from "./DetailsElement";
+import { contactsMap } from "../constants/Constants.jsx";
 
 class ContactDetail extends Component {
   render() {
     let className = "fa fa-" + this.props.type;
+    let detailsObject = contactsMap.filter(x => x.type === this.props.type)[0];
+    console.log(detailsObject)
 
     return (
-      <div className="contactDetail">
+      <li className="contactDetail">
         <span className={className}></span>
-        <DetailsElement link={this.props.link} details={this.props.details}/>
-      </div>
+        <DetailsElement link={detailsObject.link} details={detailsObject.details}/>
+      </li>
     );
   }
 }
