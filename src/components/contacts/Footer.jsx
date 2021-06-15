@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import {
-  NavLink
-} from "react-router-dom";
-import { contactsMap } from "../constants/Constants.jsx";
+import { NavLink } from "react-router-dom";
+import { contactsMap } from "../../constants/Constants.jsx";
 import "./Footer.css";
 
 class Footer extends Component {

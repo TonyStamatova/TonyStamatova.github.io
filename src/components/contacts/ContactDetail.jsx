@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import DetailsElement from "./DetailsElement";
-import { contactsMap } from "../constants/Constants.jsx";
+import { contactsMap } from "../../constants/Constants.jsx";
 
 class ContactDetail extends Component {
   render() {

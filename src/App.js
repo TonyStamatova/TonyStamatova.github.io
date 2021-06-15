@@ -4,12 +4,12 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-import About from "./components/About.jsx";
+import About from "./components/about/About.jsx";
+import Logo from "./components/about/Logo.jsx";
 // import Projects from "./components/Projects.jsx";
 // import Interests from "./components/Interests.jsx";
-import ContactMe from "./components/ContactMe.jsx";
-import Logo from "./components/Logo.jsx";
-import Footer from "./components/Footer.jsx";
+import ContactMe from "./components/contacts/ContactMe.jsx";
+import Footer from "./components/contacts/Footer.jsx";
 
 function App() {
   return (
