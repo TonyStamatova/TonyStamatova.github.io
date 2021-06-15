@@ -9,6 +9,7 @@ import About from "./components/About.jsx";
 // import Interests from "./components/Interests.jsx";
 import ContactMe from "./components/ContactMe.jsx";
 import Logo from "./components/Logo.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -32,13 +33,7 @@ function App() {
         <Route path="/contactMe" component={ContactMe}/>
       </div>
       <footer id="footer">
-            <div class="footer-content">
-                <a href="#" class="fa fa-phone"></a>
-                <a href="#" class="fa fa-github"></a>
-                <a href="#" class="fa fa-envelope"></a>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-skype"></a>
-            </div>
+        <Footer />
       </footer>
     </div>
     </HashRouter>

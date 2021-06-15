@@ -1,0 +1,26 @@
+#footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: var(--dark);
+}
+
+.footer-content {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-content .fa {
+	padding: 12px;
+	font-size: 35px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	color: var(--medium);
+}
+
+.fa:hover {
+	color: var(--light);
+}

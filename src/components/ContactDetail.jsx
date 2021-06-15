@@ -6,7 +6,6 @@ class ContactDetail extends Component {
   render() {
     let className = "fa fa-" + this.props.type;
     let detailsObject = contactsMap.filter(x => x.type === this.props.type)[0];
-    console.log(detailsObject)
 
     return (
       <li className="contactDetail">
