@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height:100vh;
 }
 
 .App-header {
@@ -8,10 +9,6 @@
 	padding: 70px 0 10px;
 	position: relative;
 	background-color: var(--dark);
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 #nav {
@@ -37,6 +34,7 @@
 	font-size: 18px;
 	line-height: 20px;
 	text-transform: uppercase;
+	text-decoration: none;
 	padding: 0 0 10px;
 	font-weight: normal;
 }
@@ -47,16 +45,29 @@
 }
 
 .content {
-	background-color: inherit;
+	background-color: var(--medium);
 	padding: 20px;
 	padding-bottom: 70px;
+	font-family: 'Work Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-hr {
+.divider{
 	border: 0;
-	background-color:var(--light); 
-	width:100px; 
-	height:2px; 
-	display:flex; 
-	justify-content:center;
+	color: var(--light);
+	width: 100px; 
+	height: 2px !important;
+	text-align: center;
+}
+
+.link-muted {
+	color: var(--dark);
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.link-muted:hover {
+    color: inherit;
+    font-weight: normal;
 }
