@@ -14,7 +14,7 @@ import Footer from "./components/contacts/Footer.jsx";
 function App() {
   return (
     <HashRouter>
-    <div className="App">
+    <div className="App d-flex flex-column">
       <header className="App-header">
         <nav id="nav">
             <ul>
@@ -26,7 +26,7 @@ function App() {
         </nav>
         <Route exact path="/" component={Logo}/>
       </header>
-      <div className="content">
+      <div className="content container-fluid flex-fill">
         <Route exact path="/" component={About}/>
         <Route path="/projects" component={Projects}/>
         {/* <Route path="/interests" component={Interests}/> */}

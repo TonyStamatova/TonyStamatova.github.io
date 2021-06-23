@@ -15,7 +15,7 @@ class Footer extends Component {
                   return React.createElement('a', {href: x.link, className: className, target:"_blank", rel:"noopener noreferrer"});
                 }
 
-                return <NavLink to="/contactMe"><span className = {className}></span></NavLink>
+                return <NavLink to="/contactMe" className = {className}></NavLink>
               })
           }
       </div>

@@ -6,7 +6,7 @@ import "./ContactMe.css";
 class ContactMe extends Component {
   render() {
     return (
-      <div className="contact-me">
+      <div className="contact-me d-flex justify-content-center">
         <ul>
           {
             contactsMap.map(

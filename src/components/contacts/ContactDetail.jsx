@@ -8,7 +8,7 @@ class ContactDetail extends Component {
     let detailsObject = contactsMap.filter(x => x.type === this.props.type)[0];
 
     return (
-      <li className="contactDetail">
+      <li className="contactDetail d-flex align-items-center">
         <span className={className}></span>
         <DetailsElement link={detailsObject.link} details={detailsObject.details}/>
       </li>

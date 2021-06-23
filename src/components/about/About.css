@@ -1,4 +1,7 @@
 .about {
-    color: var(--light);
     font-size: 18px;
+}
+
+p {
+    margin-bottom: 0 !important;
 }

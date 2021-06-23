@@ -38,11 +38,3 @@ img {
 ol, ul {
 	list-style: none;
 }
-
-body {
-  background-color: var(--medium);
-  margin: 0;
-  font-family: 'Work Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
