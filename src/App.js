@@ -26,7 +26,7 @@ function App() {
         </nav>
         <Route exact path="/" component={Logo}/>
       </header>
-      <div className="content container-fluid flex-fill">
+      <div className="content container-fluid flex-fill d-flex justify-content-center align-items-center">
         <Route exact path="/" component={About}/>
         <Route path="/projects" component={Projects}/>
         {/* <Route path="/interests" component={Interests}/> */}

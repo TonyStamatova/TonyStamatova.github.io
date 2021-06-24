@@ -12,7 +12,7 @@ export const projects = [
         name: "RunBoyarovRun",
         type: "Single-Page App",
         techStack: [ "ASP.NET Core", "Blazor Web Assembly" ],
-        description: "A track-and-field sports club's website",
+        description: "The website of a track-and-field sports club",
         links: {
             demoLink: "",
             linkToRepo: "https://github.com/TonyStamatova/RunBoyarovRun",
@@ -22,8 +22,8 @@ export const projects = [
     { 
         name: "LibraryAPI",
         type: "Web API",
-        techStack: [ "ASP.NET Web API", "Entity Framework 6", "MS SQL" ],
-        description: "Web API for a centralised book library",
+        techStack: [ "ASP.NET Web API", "Entity Framework 6", "MS SQL Server" ],
+        description: "A Web API for a centralised book library",
         links: {
             linkToRepo: "https://github.com/TonyStamatova/LibraryAPI",
             createAnIssue: "https://github.com/TonyStamatova/LibraryAPI/issues/new"
@@ -33,9 +33,10 @@ export const projects = [
         name: "Portfolio",
         type: "Single-Page App",
         techStack: [ "React" ],
-        description: "My personal portfolio website",
+        description: "A website to serve as my personal portfolio",
         deployedOn: "GitHub Pages",
         links: {
+            demoLink: "https://tonystamatova.github.io/",
             linkToRepo: "https://github.com/TonyStamatova/TonyStamatova.github.io",
             createAnIssue: "https://github.com/TonyStamatova/TonyStamatova.github.io/issues/new"
         }

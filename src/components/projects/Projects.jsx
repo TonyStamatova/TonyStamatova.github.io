@@ -1,19 +1,16 @@
 import React, { Component } from "react";
 import Project from "./Project";
 import { projects } from "../../constants/Constants.jsx";
-import './Projects.css';
 
 class Projects extends Component {
   render() {
     return (
-      <div className="projects">
-        <ul>
+      <div className="projects row">
           {
             projects.map(
               (x) => <Project project={x} />
             )
           }
-        </ul>
       </div>
     );
   }
