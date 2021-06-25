@@ -19,20 +19,17 @@ body {
 #nav {
 	position: relative;
 	display: table;
-	margin: 0 auto 22px;
-	padding: 0 0 0 10px;
 }
 
 #nav ul {
 	text-align: center;
+	padding-left: 0 !important;
 }
 
-#nav ul li {
-	float: left;
-	padding: 0 0 0 60px;
+#nav li {
+	width: 150px;
+	margin-bottom: 10px;
 }
-
-#nav ul li:first-child{padding: 0;}
 
 #nav ul a {
 	color: var(--medium);
@@ -40,7 +37,6 @@ body {
 	line-height: 20px;
 	text-transform: uppercase;
 	text-decoration: none;
-	padding: 0 0 10px;
 	font-weight: normal;
 }
 
@@ -79,10 +75,10 @@ body {
 
 #tsparticles {
 	z-index: -9999;
-    position: absolute;
+    position: fixed;
     left: 0;
-    top: 0;
+    bottom: 0;
     width: 100%;
-    height: 100%;
+    height: 200%;
   }
   

@@ -18,12 +18,12 @@ function App() {
     <HashRouter>
     <div className="App d-flex flex-column">
       <header className="App-header">
-        <nav id="nav">
-            <ul>
-                <li><NavLink exact to="/">About</NavLink></li>
-                <li><NavLink to="/projects">Projects</NavLink></li>
+        <nav id="nav" className="d-flex justify-content-center">
+            <ul className="row d-flex justify-content-center">
+                <li className="col-sm"><NavLink exact to="/">About</NavLink></li>
+                <li className="col-sm"><NavLink to="/projects">Projects</NavLink></li>
                 {/* <li><NavLink to="/interests">Interests</NavLink></li> */}
-                <li><NavLink to="/contactMe">Contact Me</NavLink></li>
+                <li className="col-sm"><NavLink to="/contactMe">Contact Me</NavLink></li>
             </ul>
         </nav>
         <Route exact path="/" component={Logo}/>
