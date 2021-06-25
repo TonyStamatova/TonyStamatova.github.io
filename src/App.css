@@ -50,8 +50,9 @@ body {
 }
 
 .content {
+	z-index: 9999;
     color: var(--light);
-	background-color: var(--medium);
+	background: transparent;
 	padding: 20px;
 	padding-bottom: 70px;
 	-webkit-font-smoothing: antialiased;
@@ -75,3 +76,13 @@ body {
     color: inherit;
     font-weight: normal;
 }
+
+#tsparticles {
+	z-index: -9999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

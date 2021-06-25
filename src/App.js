@@ -4,12 +4,14 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+import Particles from "react-tsparticles";
 import About from "./components/about/About.jsx";
 import Logo from "./components/about/Logo.jsx";
 import Projects from "./components/projects/Projects.jsx";
 // import Interests from "./components/Interests.jsx";
 import ContactMe from "./components/contacts/ContactMe.jsx";
 import Footer from "./components/contacts/Footer.jsx";
+import { particleOptions } from "./constants/Constants.jsx";
 
 function App() {
   return (
@@ -26,11 +28,14 @@ function App() {
         </nav>
         <Route exact path="/" component={Logo}/>
       </header>
-      <div className="content container-fluid flex-fill d-flex justify-content-center align-items-center">
-        <Route exact path="/" component={About}/>
-        <Route path="/projects" component={Projects}/>
-        {/* <Route path="/interests" component={Interests}/> */}
-        <Route path="/contactMe" component={ContactMe}/>
+      <div>
+        <Particles id="tsparticles" options={particleOptions} />
+        <div className="content container-fluid flex-fill d-flex justify-content-center align-items-center">
+          <Route exact path="/" component={About}/>
+          <Route path="/projects" component={Projects}/>
+          {/* <Route path="/interests" component={Interests}/> */}
+          <Route path="/contactMe" component={ContactMe}/>
+        </div>
       </div>
       <footer id="footer">
         <Footer />
